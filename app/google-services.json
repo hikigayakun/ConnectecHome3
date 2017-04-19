@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "625484876601",
+    "firebase_url": "https://connectedhome2-3c569.firebaseio.com",
+    "project_id": "connectedhome2-3c569",
+    "storage_bucket": "connectedhome2-3c569.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625484876601:android:5db4e81c0b781b4c",
+        "android_client_info": {
+          "package_name": "com.example.android.connectedhome2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625484876601-hs99442jqthsbhqlglc6od7btunt0o00.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.connectedhome2",
+            "certificate_hash": "7a8c71a45d15865d0dc886594347511cec9fff5d"
+          }
+        },
+        {
+          "client_id": "625484876601-4qdk0ivrbnhtf92fnvbsg4cf4i3b7u5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbsqJ5VESOjGR0cCp9CiOqlhP3zYBjRpQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "625484876601-4qdk0ivrbnhtf92fnvbsg4cf4i3b7u5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625484876601:android:d7a7d9c8e3202eb8",
+        "android_client_info": {
+          "package_name": "com.example.android.connectechome3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625484876601-njbdfsps98ce8msdvi8jt27sae8r5fm4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.connectechome3",
+            "certificate_hash": "7a8c71a45d15865d0dc886594347511cec9fff5d"
+          }
+        },
+        {
+          "client_id": "625484876601-4qdk0ivrbnhtf92fnvbsg4cf4i3b7u5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbsqJ5VESOjGR0cCp9CiOqlhP3zYBjRpQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "625484876601-4qdk0ivrbnhtf92fnvbsg4cf4i3b7u5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

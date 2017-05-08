@@ -50,8 +50,8 @@ public class MainActivity extends AppCompatActivity {
 
         //Üstteki Toolbar Ayarları
         ActionBar mActionBar = getSupportActionBar();
-        mActionBar.setDisplayShowHomeEnabled(false);
-        mActionBar.setDisplayShowTitleEnabled(false);
+        mActionBar.setDisplayShowHomeEnabled(true);
+        mActionBar.setDisplayShowTitleEnabled(true);
 
         //  Firebase girişi başlat/kontrol et
                 mFirebaseAuth = FirebaseAuth.getInstance();

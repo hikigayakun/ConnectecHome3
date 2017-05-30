@@ -45,13 +45,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Toolbarı oluşturr
-        Toolbar mToolbar = (Toolbar) findViewById(R.id.menuToolbar);
-        setSupportActionBar(mToolbar);
+        //Toolbar mToolbar = (Toolbar) findViewById(R.id.menuToolbar);
+        //setSupportActionBar(mToolbar);
 
         //Üstteki Toolbar Ayarları
-        ActionBar mActionBar = getSupportActionBar();
-        mActionBar.setDisplayShowHomeEnabled(true);
-        mActionBar.setDisplayShowTitleEnabled(true);
+        //ActionBar mActionBar = getSupportActionBar();
+        //mActionBar.setDisplayShowHomeEnabled(true);
+        //mActionBar.setDisplayShowTitleEnabled(true);
 
         //  Firebase girişi başlat/kontrol et
                 mFirebaseAuth = FirebaseAuth.getInstance();
@@ -80,20 +80,8 @@ public class MainActivity extends AppCompatActivity {
 
     // Firebase  database değişkenleri tanımlandı
     private DatabaseReference mFirebaseDatabaseReference;
-    private FirebaseRecyclerAdapter<Category, MessageViewHolder>
-            mFirebaseAdapter;
-
-    private static class MessageViewHolder extends RecyclerView.ViewHolder {
-        TextView view_item_text;
-        String  ustKategoriId;
 
 
-        public MessageViewHolder(View v) {
-            super(v);
-            view_item_text = (TextView) itemView.findViewById(R.id.view_item_text);
-
-        }
-    }
     //Ayarlar Menüsü
     @Override
         public boolean onCreateOptionsMenu(Menu menu) {

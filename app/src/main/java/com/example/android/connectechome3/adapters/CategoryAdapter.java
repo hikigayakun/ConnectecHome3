@@ -30,12 +30,12 @@ import java.util.List;
 
 public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHolder>{
 
-    List<com.example.android.connectechome3.model.Category> categoryList;
+    List<Category> categoryList;
     Context context;
     private ItemClickListener clickListener;
 
 
-    public CategoryAdapter(Context context, List<com.example.android.connectechome3.model.Category> categoryList){
+    public CategoryAdapter(Context context, List<Category> categoryList){
         this.categoryList=categoryList;
         this.context=context;
     }
@@ -123,7 +123,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
             @Override
             public void onClick(View v) {
                 if (editTextName.getText().length()>0){
-                    DatabaseReference dR = FirebaseDatabase.getInstance().getReference("category").child(updateCategory.getCategoryID());
+                    DatabaseReference dR = FirebaseDatabase.getInstance().getReference().child(updateCategory.getCategoryID());
                     Category category = new Category(updateCategory.getCategoryID(),updateCategory.getUstCatID(),
                             updateCategory.getUserID(),updateCategory.getCategoryName(),updateCategory.getAygitMi());
                     dR.setValue(category);
@@ -151,6 +151,6 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
 
     @Override
     public int getItemCount() {
-        return 0;
+        return categoryList.size();
     }
 }

@@ -10,7 +10,7 @@ public class Category {
     private String ustCatID; // üst kategorisinin idsi
     private String userID;  //kullanicisinin idsi
     private String categoryName; //kategorinin adı
-    private boolean aygitMi= true; //ev oda gibi bir kategori (true) mi yoksa lamba kattle gibi aygit mi (false)
+    private boolean aygitMi; //ev oda gibi bir kategori (true) mi yoksa lamba kattle gibi aygit mi (false)
 
     //getter ve setterler
     public Category(){
@@ -59,7 +59,7 @@ public class Category {
     public Category(String categoryID, String ustCatID, String userID, String categoryName, boolean aygitMi){
         this.categoryID=categoryID;
         this.ustCatID=ustCatID;
-        this.userID=ustCatID;
+        this.userID=userID;
         this.categoryName=categoryName;
         this.aygitMi=aygitMi;
 

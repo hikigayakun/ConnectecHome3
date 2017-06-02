@@ -16,8 +16,7 @@
         android:id="@+id/spinnerUpdate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/editTextName"
-        android:entries="@array/addressArray"/>
+        android:layout_below="@id/editTextName"/>
 
     <LinearLayout
         android:layout_width="match_parent"
